@@ -33,7 +33,19 @@ Using Geth we can join etherium network, transfer ether between accounts or mine
 # How to connect with Ethereium mainnet
 On cmd type :   geth attach ipc://./pipe/geth.ipc
 
-# How to create account in the Ethereum Mainnet:
+# How to create account on the Ethereum Mainnet:
 On cmd type :    personal.newAccount()
 
 And then create your password.
+
+
+# How to mine on the Ethereum Private Network:
+After creating account on cmd type;
+miner.setEtherbase(eth.accounts[0])
+miner.start(1)
+
+And then miner balanced can be checked by Typing;
+eth.getBalance(eth.accounts[0])
+
+
+
