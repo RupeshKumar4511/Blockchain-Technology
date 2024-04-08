@@ -77,3 +77,9 @@ contract MyContract {  uint balance;
 }
 
 docker run -it --rm -v $PWD:/data devopstestlab/solgraph
+
+![Screenshot from 2024-04-08 19-20-26](https://github.com/RupeshKumar4511/Blockchain-Technology/assets/149661006/e9924da9-6068-45bd-95a4-8e65d792b64c)
+
+![Uploading MyContract.sol.png…]()
+
+
