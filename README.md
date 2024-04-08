@@ -50,7 +50,7 @@ And then miner balanced can be checked by Typing;
 
 eth.getBalance(eth.accounts[0])
 
-# 
+# How to Visualize Solidity smart contracts:
 sudo docker pull devopstestlab/solgraph
 mkdir data
 cd data
