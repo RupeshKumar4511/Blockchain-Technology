@@ -49,7 +49,7 @@ miner.setEtherbase(eth.accounts[0])
 
 miner.start(1)
 
-And then miner balanced can be checked by run the following commmand;
+**And then miner balanced can be checked by run the following commmand;**
 
 eth.getBalance(eth.accounts[0])
 
@@ -57,7 +57,8 @@ eth.getBalance(eth.accounts[0])
 
 1.) **install the docker on OS.**
 
-2.) **pull the docker image for solgraph by run this command on terminal :** 
+2.) **pull the docker image for solgraph by run this command on terminal :**
+
           sudo docker pull devopstestlab/solgraph
 
 **Solgraph:** A tool to generate a DOT graph that visualises the function control flow of a Solidity contract and highlights potential security vulnerabilities.
@@ -102,11 +103,12 @@ contract MyContract {  uint balance;
 
 ![Screenshot from 2024-04-08 19-31-26](https://github.com/RupeshKumar4511/Blockchain-Technology/assets/149661006/748f3397-e2ec-465b-bed1-90f41b80498a)
 
-# Security audits of smart contract using slither:
+# Security audits for smart contract using slither:
 
 **Slither:** An Solidity static analysis framework. Through its printers, it can map method visibility and modifiers, state variables that are read and written, identify calls, and print the inheritance graph of a smart contract.
 
 1.) **pull the docker image for slither by run this command on terminal :**
+
       docker pull trailofbits/eth-security-toolbox
       
 2.) **make a directory :** 
