@@ -1,6 +1,6 @@
 # Blockchain:
 Blockchain is a distributed immutable ledger which is completely transparent.
-The main purpose of Blockchain is deccentralization .
+The main purpose of Blockchain is deccentralization.
 In January 2009 Santoshi Nakamoto created the first cryptocurrency Bitcoin.
 
 # Metamask:
@@ -17,45 +17,49 @@ Using Geth we can join etherium network, transfer ether between accounts or mine
 
 1) Install Geth on Your System.
    
-2) Create a Folder For Private Ethereum.
+2) Create a Folder (i.e Private Ethereum).
    
-3) Make a genesis.json file for gensis block.
+3) Make a genesis.json file for the gensis block and save into that folder.
+
+   <img width="233" alt="image" src="https://github.com/RupeshKumar4511/Blockchain-Technology/assets/149661006/6112c12f-c4c3-4c99-9e96-a05a5cdc5c5f">
+
      
-4) Execute genesis file
+5) Execute the genesis file by run the commands on terminal, given below.
    
    geth --datadir ./data init ./genesis.json
 
-5) Initialize the private network
+6) And then Initialize the private network by run command :
     
     geth --datadir .\data\ --nodiscover 
 
 
 # How to connect with Ethereium mainnet
-On cmd type :   geth attach ipc://./pipe/geth.ipc
+On cmd run command :   geth attach ipc://./pipe/geth.ipc
 
 # How to create account on the Ethereum Mainnet:
-On cmd type :    personal.newAccount()
+On cmd run command:    personal.newAccount()
 
 And then create your password.
 
 
 # How to mine on the Ethereum Private Network:
-After creating account on cmd type;
+After creating account , run the folllowing the commands ;
 
 miner.setEtherbase(eth.accounts[0])
 
 miner.start(1)
 
-And then miner balanced can be checked by Typing;
+And then miner balanced can be checked by run the following commmand;
 
 eth.getBalance(eth.accounts[0])
 
 # How to Visualize Solidity smart contracts:
-sudo docker pull devopstestlab/solgraph
-mkdir data
-cd data
-vim 
-
+step 1.) install the docker on OS.
+step 2.) pull the solgraph image by run this command on terminal :  sudo docker pull devopstestlab/solgraph
+step 3.) make a directory : mkdir data
+step 4.) change the directory : cd data
+step 5.) Run the command : vim -vi
+And then write the smart contract and save the contract file with .sol extension.
 
 contract MyContract {  uint balance;
 
@@ -76,7 +80,7 @@ contract MyContract {  uint balance;
   }
 }
 
-docker run -it --rm -v $PWD:/data devopstestlab/solgraph
+step 6.) Then run the command : docker run -it --rm -v $PWD:/data devopstestlab/solgraph
 
 ![Screenshot from 2024-04-08 19-20-26](https://github.com/RupeshKumar4511/Blockchain-Technology/assets/149661006/e9924da9-6068-45bd-95a4-8e65d792b64c)
 
