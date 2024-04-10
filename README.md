@@ -77,31 +77,8 @@ eth.getBalance(eth.accounts[0])
            
 **And then write the smart contract and save the contract file with .sol extension.(i.e for example Mycontract.sol)**
 
-contract MyContract {  uint balance;
+<img width="491" alt="image" src="https://github.com/RupeshKumar4511/Blockchain-Technology/assets/149661006/54cb0403-3a03-426d-8d79-cee7b7b02fbb">
 
-  function MyContract() {
-    Mint(1000000);
-    
-  }
-
-  function Mint(uint amount) internal {
-    balance = amount;
-    
-  }
-
-  function Withdraw() {
-  
-    msg.sender.send(balance);
-    
-  }
-
-  function GetBalance() constant returns(uint) {
-  
-    return balance;
-    
-  }
-  
-}
 
 6.) **Then run the command :** 
 
@@ -135,38 +112,8 @@ contract MyContract {  uint balance;
            
 **And then write the smart contract and save the contract file with .sol extension.(for example SimpleStorage.sol)**
 
-pragma solidity >=0.8.2 <0.9.0;
+<img width="418" alt="image" src="https://github.com/RupeshKumar4511/Blockchain-Technology/assets/149661006/41bf192c-a34b-42ac-bf17-91e752cf045b">
 
-/**
- * @title Storage
- * @dev Store & retrieve value in a variable
- * @custom:dev-run-script ./scripts/deploy_with_ethers.ts
- */
-contract Storage {
-
-    uint256 number;
-
-    /**
-     * @dev Store value in variable
-     * @param num value to store
-  
-     */
-    function store(uint256 num) public {
-   
-        number = num;
-    }
-
-    /**
-     * @dev Return value 
-     * @return value of 'number'
-     */
-    function retrieve() public view returns (uint256){
-
-        return number;
-       
-    }
-   
-}
 
 5.) **Then run the command :** 
 
