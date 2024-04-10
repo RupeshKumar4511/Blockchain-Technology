@@ -55,10 +55,19 @@ eth.getBalance(eth.accounts[0])
 
 # How to Visualize Solidity smart contracts:
 step 1.) **install the docker on OS.**
-step 2.) **pull the solgraph image by run this command on terminal :**  sudo docker pull devopstestlab/solgraph
-step 3.) **make a directory :** mkdir data
-step 4.) **change the directory :** cd data
-step 5.) **Run the command :** vim -vi
+
+step 2.) **pull the solgraph image by run this command on terminal :** 
+          sudo docker pull devopstestlab/solgraph
+          
+step 3.) **make a directory :** 
+           mkdir data
+           
+step 4.) **change the directory :** 
+           cd data
+           
+step 5.) **Run the command :** 
+           vim -vi
+           
 **And then write the smart contract and save the contract file with .sol extension.**
 
 contract MyContract {  uint balance;
@@ -80,7 +89,8 @@ contract MyContract {  uint balance;
   }
 }
 
-step 6.) **Then run the command :** docker run -it --rm -v $PWD:/data devopstestlab/solgraph
+step 6.) **Then run the command :** 
+         ''' sh docker run -it --rm -v $PWD:/data devopstestlab/solgraph '''
 
 ![Screenshot from 2024-04-08 19-20-26](https://github.com/RupeshKumar4511/Blockchain-Technology/assets/149661006/e9924da9-6068-45bd-95a4-8e65d792b64c)
 
@@ -88,7 +98,7 @@ step 6.) **Then run the command :** docker run -it --rm -v $PWD:/data devopstest
 
 ![Screenshot from 2024-04-08 19-31-26](https://github.com/RupeshKumar4511/Blockchain-Technology/assets/149661006/748f3397-e2ec-465b-bed1-90f41b80498a)
 
-#audits
+# audits
 ![Screenshot from 2024-04-10 20-37-12](https://github.com/RupeshKumar4511/Blockchain-Technology/assets/149661006/2fdc2805-d8e8-41ff-a38e-dfd1022592bb)
 
 ![Screenshot from 2024-04-10 21-07-49](https://github.com/RupeshKumar4511/Blockchain-Technology/assets/149661006/28da7532-5797-42d9-b1d0-6fa7d3fbf6b0)
