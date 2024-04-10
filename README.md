@@ -54,12 +54,12 @@ And then miner balanced can be checked by run the following commmand;
 eth.getBalance(eth.accounts[0])
 
 # How to Visualize Solidity smart contracts:
-step 1.) install the docker on OS.
-step 2.) pull the solgraph image by run this command on terminal :  sudo docker pull devopstestlab/solgraph
-step 3.) make a directory : mkdir data
-step 4.) change the directory : cd data
-step 5.) Run the command : vim -vi
-And then write the smart contract and save the contract file with .sol extension.
+step 1.) **install the docker on OS.**
+step 2.) **pull the solgraph image by run this command on terminal :**  sudo docker pull devopstestlab/solgraph
+step 3.) **make a directory :** mkdir data
+step 4.) **change the directory :** cd data
+step 5.) **Run the command :** vim -vi
+**And then write the smart contract and save the contract file with .sol extension.**
 
 contract MyContract {  uint balance;
 
@@ -80,7 +80,7 @@ contract MyContract {  uint balance;
   }
 }
 
-step 6.) Then run the command : docker run -it --rm -v $PWD:/data devopstestlab/solgraph
+step 6.) **Then run the command :** docker run -it --rm -v $PWD:/data devopstestlab/solgraph
 
 ![Screenshot from 2024-04-08 19-20-26](https://github.com/RupeshKumar4511/Blockchain-Technology/assets/149661006/e9924da9-6068-45bd-95a4-8e65d792b64c)
 
