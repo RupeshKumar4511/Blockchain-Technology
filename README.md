@@ -64,12 +64,15 @@ eth.getBalance(eth.accounts[0])
 **Solgraph:** A tool to generate a DOT graph that visualises the function control flow of a Solidity contract and highlights potential security vulnerabilities.
 
 3.) **make a directory :** 
+
            mkdir data
            
 4.) **change the directory :** 
+
            cd data
            
 5.) **Run the command :** 
+
            vim -vi
            
 **And then write the smart contract and save the contract file with .sol extension.(i.e for example Mycontract.sol)**
@@ -112,12 +115,15 @@ contract MyContract {  uint balance;
       docker pull trailofbits/eth-security-toolbox
       
 2.) **make a directory :** 
+
            mkdir audit
            
 3.) **change the directory :** 
+
            cd audit
            
 4.) **Run the command :** 
+
            vim -vi
            
 **And then write the smart contract and save the contract file with .sol extension.(for example SimpleStorage.sol)**
@@ -157,7 +163,7 @@ contract Storage {
 
 6.)**Open another terminal and Run the command to obtain container id:**
 
-   sudo docker container ls
+ sudo docker container ls
    
 7.)**And then Run the command:**
 
@@ -169,7 +175,7 @@ sudo docker cp $(pwd)/filename.sol “containner-id”:/home/ethsec
     
 ![Screenshot from 2024-04-10 21-07-49](https://github.com/RupeshKumar4511/Blockchain-Technology/assets/149661006/28da7532-5797-42d9-b1d0-6fa7d3fbf6b0)
 
-8.)**And then Run another command in the first terminal:**
+9.)**And then Run another command in the first terminal:**
 
     slither-check-erc filename.sol <contract name in code>
     
