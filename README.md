@@ -81,19 +81,26 @@ contract MyContract {  uint balance;
 
   function MyContract() {
     Mint(1000000);
+    
   }
 
   function Mint(uint amount) internal {
     balance = amount;
+    
   }
 
   function Withdraw() {
+  
     msg.sender.send(balance);
+    
   }
 
   function GetBalance() constant returns(uint) {
+  
     return balance;
+    
   }
+  
 }
 
 6.) **Then run the command :** 
@@ -129,6 +136,7 @@ contract MyContract {  uint balance;
 **And then write the smart contract and save the contract file with .sol extension.(for example SimpleStorage.sol)**
 
 pragma solidity >=0.8.2 <0.9.0;
+
 /**
  * @title Storage
  * @dev Store & retrieve value in a variable
@@ -141,8 +149,10 @@ contract Storage {
     /**
      * @dev Store value in variable
      * @param num value to store
+  
      */
     function store(uint256 num) public {
+   
         number = num;
     }
 
@@ -151,8 +161,11 @@ contract Storage {
      * @return value of 'number'
      */
     function retrieve() public view returns (uint256){
+
         return number;
+       
     }
+   
 }
 
 5.) **Then run the command :** 
