@@ -243,8 +243,8 @@ Using Geth we can join etherium network, transfer ether between accounts or mine
       vim -vi
    
 5) **And then write the smart contract and save the contract file with .sol extension.(for example Storage.sol)**
+![image](https://github.com/RupeshKumar4511/Blockchain-Technology/assets/149661006/fa046006-a95b-4cc9-ad4c-ffdf3bb0f7ec)
 
-![Screenshot from 2024-04-12 20-22-15](https://github.com/RupeshKumar4511/Blockchain-Technology/assets/149661006/e3f9e36d-f662-498d-b0b8-09d0feb62ede)
 
 6) **Then run command**
    
