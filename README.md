@@ -149,7 +149,7 @@ Using Geth we can join etherium network, transfer ether between accounts or mine
 
 # Security auditsfor smart contract using Mythril:
 
-1)**pull the docker image for Mythril by run command**
+1) **pull the docker image for Mythril by run command**
 
       sudo docker pull mythril/myth
    
@@ -161,7 +161,7 @@ Using Geth we can join etherium network, transfer ether between accounts or mine
    
       cd audits2
    
-4)**run the command**
+4) **run the command**
    
       vim -vi
    
@@ -200,7 +200,8 @@ Using Geth we can join etherium network, transfer ether between accounts or mine
      vim -vi
 
 
-6) **And then write the smart contract and save the contract file with .sol extension.(for example Storage.sol)**
+6) **And then write the smart contract and save the contract file with .sol extension.(for example 
+   Storage.sol)**
    
 ![image](https://github.com/RupeshKumar4511/Blockchain-Technology/assets/149661006/fa046006-a95b-4cc9-ad4c-ffdf3bb0f7ec)
 
@@ -224,7 +225,7 @@ Using Geth we can join etherium network, transfer ether between accounts or mine
 
 # Security audits for solidity smart contract using manticore:
 
-1)**pull the docker image for manticore**
+1) **pull the docker image for manticore**
 
          sudo docker pull trailofbits/manticore
     
@@ -238,7 +239,7 @@ Using Geth we can join etherium network, transfer ether between accounts or mine
    
       cd audits2
    
-4)**run the command**
+4) **run the command**
    
       vim -vi
    
@@ -247,6 +248,6 @@ Using Geth we can join etherium network, transfer ether between accounts or mine
 ![image](https://github.com/RupeshKumar4511/Blockchain-Technology/assets/149661006/fa046006-a95b-4cc9-ad4c-ffdf3bb0f7ec)
 
 
-7) **Then run command**
+6) **Then run command**
    
       manticore Storage.sol 
