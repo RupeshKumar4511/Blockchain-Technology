@@ -77,7 +77,8 @@ eth.getBalance(eth.accounts[0])
            
 **And then write the smart contract and save the contract file with .sol extension.(i.e for example Mycontract.sol)**
 
-<img width="491" alt="image" src="https://github.com/RupeshKumar4511/Blockchain-Technology/assets/149661006/54cb0403-3a03-426d-8d79-cee7b7b02fbb">
+![image](https://github.com/RupeshKumar4511/Blockchain-Technology/assets/149661006/b926bbab-df4b-432a-a63a-c8461406d2f5)
+
 
 
 6.) **Then run the command :** 
@@ -112,7 +113,8 @@ eth.getBalance(eth.accounts[0])
            
 **And then write the smart contract and save the contract file with .sol extension.(for example SimpleStorage.sol)**
 
-<img width="418" alt="image" src="https://github.com/RupeshKumar4511/Blockchain-Technology/assets/149661006/41bf192c-a34b-42ac-bf17-91e752cf045b">
+![image](https://github.com/RupeshKumar4511/Blockchain-Technology/assets/149661006/fa046006-a95b-4cc9-ad4c-ffdf3bb0f7ec)
+
 
 
 5.) **Then run the command :** 
