@@ -147,7 +147,7 @@ Using Geth we can join etherium network, transfer ether between accounts or mine
     
 ![Screenshot from 2024-04-10 21-17-14](https://github.com/RupeshKumar4511/Blockchain-Technology/assets/149661006/b67acc92-92c8-4e0a-90e3-2f017fe2ff88)
 
-# Security auditsfor smart contract using Mythril:
+# Security audits for smart contract using Mythril:
 
 1) **pull the docker image for Mythril by run command**
 
@@ -171,7 +171,7 @@ Using Geth we can join etherium network, transfer ether between accounts or mine
 ![image](https://github.com/RupeshKumar4511/Blockchain-Technology/assets/149661006/9d0301c7-9598-48c5-8557-4bb6f8dca538)
 ![image](https://github.com/RupeshKumar4511/Blockchain-Technology/assets/149661006/180a6025-e6af-465f-bfcd-180b71bdb64a)
 
-6)**To analyse the smart contract run the command**
+6) **To analyse the smart contract run the command**
 
         myth analyze Ballot.sol
 
