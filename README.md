@@ -26,22 +26,22 @@ Using Geth we can join etherium network, transfer ether between accounts or mine
      
 5) Execute the genesis file by run the commands on terminal, given below.
    
-   geth --datadir ./data init ./genesis.json
+         geth --datadir ./data init ./genesis.json
 
 6) And then Initialize the private network by run command :
     
-    geth --datadir .\data\ --nodiscover 
+         geth --datadir .\data\ --nodiscover 
 
 
 # How to connect with Ethereium mainnet
 **On cmd run command :** 
 
- geth attach ipc://./pipe/geth.ipc 
+       geth attach ipc://./pipe/geth.ipc 
 
 # How to create account on the Ethereum Mainnet:
 **On cmd run command:**   
 
-  personal.newAccount()
+        personal.newAccount()
 
 **And then create your password.**
 
@@ -49,13 +49,13 @@ Using Geth we can join etherium network, transfer ether between accounts or mine
 # How to mine on the Ethereum Private Network:
 **After creating account , run the following the commands ;**
 
-miner.setEtherbase(eth.accounts[0])
+          miner.setEtherbase(eth.accounts[0])
 
-miner.start(1)
+          miner.start(1)
 
 **And then miner balanced can be checked by run the following commmand;**
 
-eth.getBalance(eth.accounts[0])
+          eth.getBalance(eth.accounts[0])
 
 # How to Visualize Solidity smart contracts:
 
@@ -101,7 +101,7 @@ eth.getBalance(eth.accounts[0])
 
 1.) **pull the docker image for slither by run this command on terminal :**
 
-      docker pull trailofbits/eth-security-toolbox
+            docker pull trailofbits/eth-security-toolbox
       
 2.) **make a directory :** 
 
@@ -123,27 +123,27 @@ eth.getBalance(eth.accounts[0])
 
 5.) **Then run the command :** 
 
-     docker run -it --rm -v $PWD:/data trailofbits/eth-security-toolbox
+       docker run -it --rm -v $PWD:/data trailofbits/eth-security-toolbox
 
 ![Screenshot from 2024-04-10 20-37-12](https://github.com/RupeshKumar4511/Blockchain-Technology/assets/149661006/2fdc2805-d8e8-41ff-a38e-dfd1022592bb)
 
 6.)**Open another terminal and Run the command to obtain container id:**
 
- sudo docker container ls
+        sudo docker container ls
    
 7.)**And then Run the command:**
 
-sudo docker cp $(pwd)/filename.sol “containner-id”:/home/ethsec
+        sudo docker cp $(pwd)/filename.sol “containner-id”:/home/ethsec
 
 8.)**Run the command in the first terminal:**
 
-    slither filename.sol
+       slither filename.sol
     
 ![Screenshot from 2024-04-10 21-07-49](https://github.com/RupeshKumar4511/Blockchain-Technology/assets/149661006/28da7532-5797-42d9-b1d0-6fa7d3fbf6b0)
 
 9.)**And then Run another command in the first terminal:**
 
-    slither-check-erc filename.sol <contract name in code>
+      slither-check-erc filename.sol <contract name in code>
     
 ![Screenshot from 2024-04-10 21-17-14](https://github.com/RupeshKumar4511/Blockchain-Technology/assets/149661006/b67acc92-92c8-4e0a-90e3-2f017fe2ff88)
 
@@ -151,19 +151,19 @@ sudo docker cp $(pwd)/filename.sol “containner-id”:/home/ethsec
 
 1)**pull the docker image for Mythril by run command**
 
-   sudo docker pull mythril/myth
+      sudo docker pull mythril/myth
    
 2) **make a directory**
    
-    mkdir audits2
+      mkdir audits2
    
 3) **change the directory**
    
-    cd audits2
+      cd audits2
    
 4)**run the command**
    
-    vim -vi
+      vim -vi
    
 5) **And then write the smart contract and save the contract file with .sol extension.(for example Ballot.sol)**
 
@@ -172,35 +172,41 @@ sudo docker cp $(pwd)/filename.sol “containner-id”:/home/ethsec
 ![image](https://github.com/RupeshKumar4511/Blockchain-Technology/assets/149661006/180a6025-e6af-465f-bfcd-180b71bdb64a)
 
 6)**To analyse the smart contract run the command**
-     myth analyze Ballot.sol
+
+        myth analyze Ballot.sol
 
 ![Screenshot from 2024-04-12 18-30-18](https://github.com/RupeshKumar4511/Blockchain-Technology/assets/149661006/c9a377d8-e785-41b9-9161-61da2e4c2248)
 
 # Security audits for smart contract using Surya:
 
 1) **install npm by run the command**
-   sudo apt install npm
    
-2) **install surya**
-    sudo npm install -g surya
+      sudo apt install npm
+   
+3) **install surya**
+   
+     sudo npm install -g surya
 
-3) **make a directory**
-    mkdir audits2
+5) **make a directory**
+   
+     mkdir audits2
 
-4) **change the directory**
-    cd audits2
+7) **change the directory**
+   
+     cd audits2
 
-5) **run command**
-    vim -vi
+9) **run command**
+    
+     vim -vi
 
 
-6) **And then write the smart contract and save the contract file with .sol extension.(for example Storage.sol)**
+11) **And then write the smart contract and save the contract file with .sol extension.(for example Storage.sol)**
    
 ![image](https://github.com/RupeshKumar4511/Blockchain-Technology/assets/149661006/fa046006-a95b-4cc9-ad4c-ffdf3bb0f7ec)
 
 7) **Then run the command**
    
-     surya parse Storage.sol
+      surya parse Storage.sol
 
 **Parse :**  The parse command outputs a treefied AST object coming from the parser.
     
@@ -210,7 +216,7 @@ sudo docker cp $(pwd)/filename.sol “containner-id”:/home/ethsec
 
 8) **Then run another command**
    
-    surya flatten Storage.sol
+       surya flatten Storage.sol
    
 **Flatten :** The flatten command outputs a flattened version of the source code, with all import statements replaced by the corresponding source code. Import statements that reference a file that has already been imported, will simply be commented out.
 
@@ -220,7 +226,7 @@ sudo docker cp $(pwd)/filename.sol “containner-id”:/home/ethsec
 
 1)**pull the docker image for mantidore**
 
-    sudo docker pull trailofbits/manticore
+         sudo docker pull trailofbits/manticore
     
 ![image](https://github.com/RupeshKumar4511/Blockchain-Technology/assets/149661006/0175889b-ab4b-421b-9694-90cdf20570c8)
 
