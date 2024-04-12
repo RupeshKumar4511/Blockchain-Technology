@@ -183,24 +183,24 @@ Using Geth we can join etherium network, transfer ether between accounts or mine
    
       sudo apt install npm
    
-3) **install surya**
+2) **install surya**
    
      sudo npm install -g surya
 
-5) **make a directory**
+3) **make a directory**
    
      mkdir audits2
 
-7) **change the directory**
+4) **change the directory**
    
      cd audits2
 
-9) **run command**
+5) **run command**
     
      vim -vi
 
 
-11) **And then write the smart contract and save the contract file with .sol extension.(for example Storage.sol)**
+6) **And then write the smart contract and save the contract file with .sol extension.(for example Storage.sol)**
    
 ![image](https://github.com/RupeshKumar4511/Blockchain-Technology/assets/149661006/fa046006-a95b-4cc9-ad4c-ffdf3bb0f7ec)
 
@@ -224,11 +224,28 @@ Using Geth we can join etherium network, transfer ether between accounts or mine
 
 # Security audits for solidity smart contract using manticore:
 
-1)**pull the docker image for mantidore**
+1)**pull the docker image for manticore**
 
          sudo docker pull trailofbits/manticore
     
 ![image](https://github.com/RupeshKumar4511/Blockchain-Technology/assets/149661006/0175889b-ab4b-421b-9694-90cdf20570c8)
 
+2) **make a directory**
+   
+      mkdir audits2
+   
+3) **change the directory**
+   
+      cd audits2
+   
+4)**run the command**
+   
+      vim -vi
+   
+5) **And then write the smart contract and save the contract file with .sol extension.(for example Storage.sol)**
 
+![Screenshot from 2024-04-12 20-22-15](https://github.com/RupeshKumar4511/Blockchain-Technology/assets/149661006/e3f9e36d-f662-498d-b0b8-09d0feb62ede)
 
+6) **Then run command**
+   
+      manticore Storage.sol 
