@@ -133,7 +133,7 @@ sudo docker cp $(pwd)/filename.sol “containner-id”:/home/ethsec
 
 8.)**Run the command in the first terminal:**
 
-    slither filename.sol 
+    slither filename.sol
     
 ![Screenshot from 2024-04-10 21-07-49](https://github.com/RupeshKumar4511/Blockchain-Technology/assets/149661006/28da7532-5797-42d9-b1d0-6fa7d3fbf6b0)
 
@@ -142,6 +142,13 @@ sudo docker cp $(pwd)/filename.sol “containner-id”:/home/ethsec
     slither-check-erc filename.sol <contract name in code>
     
 ![Screenshot from 2024-04-10 21-17-14](https://github.com/RupeshKumar4511/Blockchain-Technology/assets/149661006/b67acc92-92c8-4e0a-90e3-2f017fe2ff88)
+
+![Screenshot from 2024-04-12 20-16-13](https://github.com/RupeshKumar4511/Blockchain-Technology/assets/149661006/7ae42f51-76fb-47d8-9356-4afed72c954a)
+![Screenshot from 2024-04-12 20-13-12](https://github.com/RupeshKumar4511/Blockchain-Technology/assets/149661006/c4015dbe-9c3f-4491-bd82-495fc2618a71)
+![Screenshot from 2024-04-12 20-16-13](https://github.com/RupeshKumar4511/Blockchain-Technology/assets/149661006/c92683ea-8593-469b-9ea3-02a42d9bd28f)
+
+
+
 
 ![Screenshot from 2024-04-12 18-30-18](https://github.com/RupeshKumar4511/Blockchain-Technology/assets/149661006/c9a377d8-e785-41b9-9161-61da2e4c2248)
 
