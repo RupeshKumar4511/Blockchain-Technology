@@ -34,10 +34,14 @@ Using Geth we can join etherium network, transfer ether between accounts or mine
 
 
 # How to connect with Ethereium mainnet
-**On cmd run command :**    geth attach ipc://./pipe/geth.ipc 
+**On cmd run command :** 
+
+ geth attach ipc://./pipe/geth.ipc 
 
 # How to create account on the Ethereum Mainnet:
-**On cmd run command:**    personal.newAccount()
+**On cmd run command:**   
+
+  personal.newAccount()
 
 **And then create your password.**
 
@@ -143,24 +147,81 @@ sudo docker cp $(pwd)/filename.sol “containner-id”:/home/ethsec
     
 ![Screenshot from 2024-04-10 21-17-14](https://github.com/RupeshKumar4511/Blockchain-Technology/assets/149661006/b67acc92-92c8-4e0a-90e3-2f017fe2ff88)
 
-# Security audits using Mythril:
+# Security auditsfor smart contract using Mythril:
+
+1)**pull the docker image for Mythril by run command**
+
+   sudo docker pull mythril/myth
+   
+2) **make a directory**
+   
+    mkdir audits2
+   
+3) **change the directory**
+   
+    cd audits2
+   
+4)**run the command**
+   
+    vim -vi
+   
+5) **And then write the smart contract and save the contract file with .sol extension.(for example Ballot.sol)**
+
 ![Screenshot from 2024-04-12 20-22-15](https://github.com/RupeshKumar4511/Blockchain-Technology/assets/149661006/e3f9e36d-f662-498d-b0b8-09d0feb62ede)
 ![image](https://github.com/RupeshKumar4511/Blockchain-Technology/assets/149661006/9d0301c7-9598-48c5-8557-4bb6f8dca538)
 ![image](https://github.com/RupeshKumar4511/Blockchain-Technology/assets/149661006/180a6025-e6af-465f-bfcd-180b71bdb64a)
 
-
-
-
+6)**To analyse the smart contract run the command**
+     myth analyze Ballot.sol
 
 ![Screenshot from 2024-04-12 18-30-18](https://github.com/RupeshKumar4511/Blockchain-Technology/assets/149661006/c9a377d8-e785-41b9-9161-61da2e4c2248)
 
+# Security audits for smart contract using Surya:
+
+1) **install npm by run the command**
+   sudo apt install npm
+   
+2) **install surya**
+    sudo npm install -g surya
+
+3) **make a directory**
+    mkdir audits2
+
+4) **change the directory**
+    cd audits2
+
+5) **run command**
+    vim -vi
+
+
+6) **And then write the smart contract and save the contract file with .sol extension.(for example Storage.sol)**
+   
+![image](https://github.com/RupeshKumar4511/Blockchain-Technology/assets/149661006/fa046006-a95b-4cc9-ad4c-ffdf3bb0f7ec)
+
+7) **Then run the command**
+   
+     surya parse Storage.sol
+
+**Parse :**  The parse command outputs a treefied AST object coming from the parser.
+    
 ![image](https://github.com/RupeshKumar4511/Blockchain-Technology/assets/149661006/64512083-d3f3-4f0d-9ff6-2901cefffdee)
 ![image](https://github.com/RupeshKumar4511/Blockchain-Technology/assets/149661006/7cd48a08-f422-42dc-ac0c-9ceab737931d)
 ![image](https://github.com/RupeshKumar4511/Blockchain-Technology/assets/149661006/cad3956c-ce25-4859-a906-6a5985580cb3)
 
+8) **Then run another command**
+   
+    surya flatten Storage.sol
+   
+**Flatten :** The flatten command outputs a flattened version of the source code, with all import statements replaced by the corresponding source code. Import statements that reference a file that has already been imported, will simply be commented out.
+
 ![image](https://github.com/RupeshKumar4511/Blockchain-Technology/assets/149661006/950a5975-992b-40ff-936b-3d268b1c90a8)
 
+# Security audits for solidity smart contract using manticore:
 
+1)**pull the docker image for mantidore**
+
+    sudo docker pull trailofbits/manticore
+    
 ![image](https://github.com/RupeshKumar4511/Blockchain-Technology/assets/149661006/0175889b-ab4b-421b-9694-90cdf20570c8)
 
 
