@@ -252,7 +252,16 @@ Using Geth we can join etherium network, transfer ether between accounts or mine
    
       manticore Storage.sol
 
-# How to make dapps(decentralized application):
+# How to make dapp(decentralized application):
+1)Set the environment
+   ```bash
+   sudo apt update
+   sudo apt install curl git
+   curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
+   sudo apt-get install -y nodejs
+```
+
+
 ![image](https://github.com/RupeshKumar4511/Blockchain-Technology/assets/149661006/0f0e5f5b-475b-4e6a-81fe-e857d15894bf)
 
 ![image](https://github.com/RupeshKumar4511/Blockchain-Technology/assets/149661006/73e26677-5701-4f89-b0f4-8e5e7366377f)
