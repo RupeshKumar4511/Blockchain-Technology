@@ -583,9 +583,12 @@ contract Token {
 
 
 
+![image](https://github.com/RupeshKumar4511/Blockchain-Technology/assets/149661006/6e62ff83-5688-482c-b993-4efbb9f9247e)
 
 
+![image](https://github.com/RupeshKumar4511/Blockchain-Technology/assets/149661006/1a9f3638-8732-4fe9-8797-0bfc29b6ae96)
 
+![image](https://github.com/RupeshKumar4511/Blockchain-Technology/assets/149661006/fe9a3ba2-6c0e-410d-8722-aecee7265cca)
 
 
 
