@@ -150,20 +150,24 @@ Using Geth we can join etherium network, transfer ether between accounts or mine
 # Security audits for smart contract using Mythril:
 
 1) **pull the docker image for Mythril by run command**
-
+  ``` bash
       sudo docker pull mythril/myth
-   
+  ```
+ 
 2) **make a directory**
-   
+  ``` bash 
       mkdir audits2
-   
+  ```
+ 
 3) **change the directory**
-   
+   ``` bash
       cd audits2
-   
+   ```
+    
 4) **run the command**
-   
+   ``` bash
       vim -vi
+   ```
    
 5) **And then write the smart contract and save the contract file with .sol extension.(for example Ballot.sol)**
 
@@ -180,25 +184,28 @@ Using Geth we can join etherium network, transfer ether between accounts or mine
 # Security audits for smart contract using Surya:
 
 1) **install npm by run the command**
-   
+   ``` bash
       sudo apt install npm
+   ```
    
 2) **install surya**
-   
+   ``` bash
      sudo npm install -g surya
-
+   ```
 3) **make a directory**
-   
+   ``` bash
      mkdir audits2
-
-4) **change the directory**
+   ```
    
+4) **change the directory**
+   ``` bash
      cd audits2
-
+   ```
+   
 5) **run command**
-    
+   ``` bash  
      vim -vi
-
+   ```
 
 6) **And then write the smart contract and save the contract file with .sol extension.(for example 
    Storage.sol)**
@@ -206,9 +213,10 @@ Using Geth we can join etherium network, transfer ether between accounts or mine
 ![image](https://github.com/RupeshKumar4511/Blockchain-Technology/assets/149661006/fa046006-a95b-4cc9-ad4c-ffdf3bb0f7ec)
 
 7) **Then run the command**
-   
+   ``` bash
       surya parse Storage.sol
-
+   ```
+   
 **Parse :**  The parse command outputs a treefied AST object coming from the parser.
     
 ![image](https://github.com/RupeshKumar4511/Blockchain-Technology/assets/149661006/64512083-d3f3-4f0d-9ff6-2901cefffdee)
@@ -240,7 +248,8 @@ Using Geth we can join etherium network, transfer ether between accounts or mine
 3) **change the directory**
    
    ``` bash
-      cd audits2  ```
+      cd audits2
+   ```
    
 5) **run the command**
 6) 
@@ -253,6 +262,6 @@ Using Geth we can join etherium network, transfer ether between accounts or mine
 
 
 6) **Then run command**
-   ```bash   manticore Storage.sol
-      
+   ```bash   
+    manticore Storage.sol  
    ```
