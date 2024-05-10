@@ -232,13 +232,13 @@ Using Geth we can join etherium network, transfer ether between accounts or mine
 ![image](https://github.com/RupeshKumar4511/Blockchain-Technology/assets/149661006/0175889b-ab4b-421b-9694-90cdf20570c8)
 
 2) **make a directory**
-   
+   ``` bash
       mkdir audits2
-   
+   ```
 3) **change the directory**
-   
+   ``` bash
       cd audits2
-   
+   ```
 4) **run the command**
    ``` bash
       vim -vi
@@ -249,6 +249,6 @@ Using Geth we can join etherium network, transfer ether between accounts or mine
 
 
 6) **Then run command**
-   
+   ```bash
       manticore Storage.sol
-
+   ```
