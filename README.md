@@ -226,23 +226,23 @@ Using Geth we can join etherium network, transfer ether between accounts or mine
 # Security audits for solidity smart contract using manticore:
 
 1) **pull the docker image for manticore**
-
-         sudo docker pull trailofbits/manticore
+ ``` bash
+         sudo docker pull trailofbits/manticore ```
     
 ![image](https://github.com/RupeshKumar4511/Blockchain-Technology/assets/149661006/0175889b-ab4b-421b-9694-90cdf20570c8)
 
 2) **make a directory**
    ``` bash
-      mkdir audits2
-   ```
+      mkdir audits2 ``
+   
 3) **change the directory**
    ``` bash
-      cd audits2
-   ```
+      cd audits2  ```
+   
 4) **run the command**
    ``` bash
-      vim -vi
-   ```
+      vim -vi ```
+   
 5) **And then write the smart contract and save the contract file with .sol extension.(for example Storage.sol)**
    
 ![image](https://github.com/RupeshKumar4511/Blockchain-Technology/assets/149661006/fa046006-a95b-4cc9-ad4c-ffdf3bb0f7ec)
@@ -250,5 +250,5 @@ Using Geth we can join etherium network, transfer ether between accounts or mine
 
 6) **Then run command**
    ```bash
-      manticore Storage.sol
-   ```
+      manticore Storage.sol ```
+   
