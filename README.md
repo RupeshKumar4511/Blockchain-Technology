@@ -33,7 +33,7 @@ Using Geth we can join etherium network, transfer ether between accounts or mine
          geth --datadir .\data\ --nodiscover 
 
 
-# How to connect with Ethereium mainnet
+# How to connect with Ethereum mainnet
 **On cmd run command :** 
 
        geth attach ipc://./pipe/geth.ipc 
@@ -265,3 +265,6 @@ Using Geth we can join etherium network, transfer ether between accounts or mine
    ```bash   
     manticore Storage.sol  
    ```
+
+# Reference :
+**Smart Contract :** Remix IDE,Medium
